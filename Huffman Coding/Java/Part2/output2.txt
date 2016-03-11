@@ -1,0 +1,11 @@
+Iteration 1: listHead -->(eb, 2, i)-->(i, 2, a)-->(a, 2, j)-->(j, 3, d)-->(d, 3, h)-->(h, 4, p)-->(p, 4, k)-->(k, 9, n)-->(n, 11, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 2: listHead -->(a, 2, j)-->(j, 3, d)-->(d, 3, ebi)-->(ebi, 4, h)-->(h, 4, p)-->(p, 4, k)-->(k, 9, n)-->(n, 11, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 3: listHead -->(d, 3, ebi)-->(ebi, 4, h)-->(h, 4, p)-->(p, 4, aj)-->(aj, 5, k)-->(k, 9, n)-->(n, 11, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 4: listHead -->(h, 4, p)-->(p, 4, aj)-->(aj, 5, debi)-->(debi, 7, k)-->(k, 9, n)-->(n, 11, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 5: listHead -->(aj, 5, debi)-->(debi, 7, hp)-->(hp, 8, k)-->(k, 9, n)-->(n, 11, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 6: listHead -->(hp, 8, k)-->(k, 9, n)-->(n, 11, ajdebi)-->(ajdebi, 12, m)-->(m, 15, s)-->(s, 45, NULL)-->NULL
+Iteration 7: listHead -->(n, 11, ajdebi)-->(ajdebi, 12, m)-->(m, 15, hpk)-->(hpk, 17, s)-->(s, 45, NULL)-->NULL
+Iteration 8: listHead -->(m, 15, hpk)-->(hpk, 17, najdebi)-->(najdebi, 23, s)-->(s, 45, NULL)-->NULL
+Iteration 9: listHead -->(najdebi, 23, mhpk)-->(mhpk, 32, s)-->(s, 45, NULL)-->NULL
+Iteration 10: listHead -->(s, 45, najdebimhpk)-->(najdebimhpk, 55, NULL)-->NULL
+Iteration 11: listHead -->(snajdebimhpk, 100, NULL)-->NULL

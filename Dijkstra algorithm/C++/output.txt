@@ -1,0 +1,190 @@
+6
+1 2 5
+2 1 10
+1 4 10
+4 1 20
+3 2 5
+3 4 10
+3 5 30
+5 4 5
+4 5 20
+1 6 2
+2 6 2
+3 6 3
+4 6 6
+5 6 2
+6 1 8
+6 2 4
+6 3 3
+6 4 1
+6 5 5
+
+Cost Matrix:
+   0   5  NA  10  NA   2
+  10   0  NA  NA  NA   2
+  NA   5   0  10  30   3
+  20  NA  NA   0  20   6
+  NA  NA  NA   5   0   2
+   8   4   3   1   5   0
+
+Source Node: 1
+
+1 to n1 0 and path: n1 <-- 1
+1 to n2 5 and path: n2 <-- 1
+1 to n3 5 and path: n3 <-- n6 <-- 1
+1 to n4 3 and path: n4 <-- n6 <-- 1
+1 to n5 7 and path: n5 <-- n6 <-- 1
+1 to n6 2 and path: n6 <-- 1
+
+6
+1 2 5
+2 1 10
+1 4 10
+4 1 20
+3 2 5
+3 4 10
+3 5 30
+5 4 5
+4 5 20
+1 6 2
+2 6 2
+3 6 3
+4 6 6
+5 6 2
+6 1 8
+6 2 4
+6 3 3
+6 4 1
+6 5 5
+
+Cost Matrix:
+   0   5  NA  10  NA   2
+  10   0  NA  NA  NA   2
+  NA   5   0  10  30   3
+  20  NA  NA   0  20   6
+  NA  NA  NA   5   0   2
+   8   4   3   1   5   0
+
+Source Node: 2
+
+2 to n1 10 and path: n1 <-- 2
+2 to n2 0 and path: n2 <-- 2
+2 to n3 5 and path: n3 <-- n6 <-- 2
+2 to n4 3 and path: n4 <-- n6 <-- 2
+2 to n5 7 and path: n5 <-- n6 <-- 2
+2 to n6 2 and path: n6 <-- 2
+
+6
+1 2 5
+2 1 10
+1 4 10
+4 1 20
+3 2 5
+3 4 10
+3 5 30
+5 4 5
+4 5 20
+1 6 2
+2 6 2
+3 6 3
+4 6 6
+5 6 2
+6 1 8
+6 2 4
+6 3 3
+6 4 1
+6 5 5
+
+Cost Matrix:
+   0   5  NA  10  NA   2
+  10   0  NA  NA  NA   2
+  NA   5   0  10  30   3
+  20  NA  NA   0  20   6
+  NA  NA  NA   5   0   2
+   8   4   3   1   5   0
+
+Source Node: 3
+
+3 to n1 11 and path: n1 <-- n6 <-- 3
+3 to n2 5 and path: n2 <-- 3
+3 to n3 0 and path: n3 <-- 3
+3 to n4 4 and path: n4 <-- n6 <-- 3
+3 to n5 8 and path: n5 <-- n6 <-- 3
+3 to n6 3 and path: n6 <-- 3
+
+6
+1 2 5
+2 1 10
+1 4 10
+4 1 20
+3 2 5
+3 4 10
+3 5 30
+5 4 5
+4 5 20
+1 6 2
+2 6 2
+3 6 3
+4 6 6
+5 6 2
+6 1 8
+6 2 4
+6 3 3
+6 4 1
+6 5 5
+
+Cost Matrix:
+   0   5  NA  10  NA   2
+  10   0  NA  NA  NA   2
+  NA   5   0  10  30   3
+  20  NA  NA   0  20   6
+  NA  NA  NA   5   0   2
+   8   4   3   1   5   0
+
+Source Node: 5
+
+5 to n1 10 and path: n1 <-- n6 <-- 5
+5 to n2 6 and path: n2 <-- n6 <-- 5
+5 to n3 5 and path: n3 <-- n6 <-- 5
+5 to n4 3 and path: n4 <-- n6 <-- 5
+5 to n5 0 and path: n5 <-- 5
+5 to n6 2 and path: n6 <-- 5
+
+6
+1 2 5
+2 1 10
+1 4 10
+4 1 20
+3 2 5
+3 4 10
+3 5 30
+5 4 5
+4 5 20
+1 6 2
+2 6 2
+3 6 3
+4 6 6
+5 6 2
+6 1 8
+6 2 4
+6 3 3
+6 4 1
+6 5 5
+
+Cost Matrix:
+   0   5  NA  10  NA   2
+  10   0  NA  NA  NA   2
+  NA   5   0  10  30   3
+  20  NA  NA   0  20   6
+  NA  NA  NA   5   0   2
+   8   4   3   1   5   0
+
+Source Node: 6
+
+6 to n1 8 and path: n1 <-- 6
+6 to n2 4 and path: n2 <-- 6
+6 to n3 3 and path: n3 <-- 6
+6 to n4 1 and path: n4 <-- 6
+6 to n5 5 and path: n5 <-- 6
+6 to n6 0 and path: n6 <-- 6
+

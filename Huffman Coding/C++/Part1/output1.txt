@@ -1,0 +1,12 @@
+a 2 
+a 2 d 3 
+a 2 d 3 p 4 
+a 2 d 3 p 4 m 15 
+a 2 j 3 d 3 p 4 m 15 
+b 1 a 2 j 3 d 3 p 4 m 15 
+e 1 b 1 a 2 j 3 d 3 p 4 m 15 
+e 1 b 1 i 2 a 2 j 3 d 3 p 4 m 15 
+e 1 b 1 i 2 a 2 j 3 d 3 p 4 k 9 m 15 
+e 1 b 1 i 2 a 2 j 3 d 3 p 4 k 9 n 11 m 15 
+e 1 b 1 i 2 a 2 j 3 d 3 p 4 k 9 n 11 m 15 s 45 
+e 1 b 1 i 2 a 2 j 3 d 3 h 4 p 4 k 9 n 11 m 15 s 45 
